@@ -13,7 +13,7 @@ import (
 
 var a App
 
-const tableCreationQuery = `CREATE TABLE IF NOT EXISTS prodcuts
+const tableCreationQuery = `CREATE TABLE IF NOT EXISTS products
 (
 id SERIAL,
 name TEXT NOT NULL,
